@@ -7,7 +7,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "deploy": "serverless",
+    "deploy": "components-v1",
     "lint": "tslint -c tslint.json -p tsconfig.json",
     "lint-fix": "tslint -c tslint.json -p tsconfig.json --fix"
   },
@@ -21,10 +21,12 @@
   "author": "kimcoder",
   "license": "ISC",
   "dependencies": {
+    "@serverless/cli": "1.6.0",
     "next": "9.4.0",
     "next-images": "1.4.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",
+    "serverless": "3.18.2",
     "typescript": "3.8.3"
   },
   "devDependencies": {
